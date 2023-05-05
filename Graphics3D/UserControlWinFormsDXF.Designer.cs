@@ -44,6 +44,7 @@
             this.glControl1.Size = new System.Drawing.Size(927, 459);
             this.glControl1.TabIndex = 0;
             this.glControl1.Text = "glControl1";
+            this.glControl1.Load += new System.EventHandler(this.glControl1_Load);
             // 
             // UserControlWinFormsDXF
             // 

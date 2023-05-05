@@ -35,15 +35,19 @@
             // 
             // BrowseBtn
             // 
+            this.BrowseBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BrowseBtn.Location = new System.Drawing.Point(538, 421);
             this.BrowseBtn.Name = "BrowseBtn";
             this.BrowseBtn.Size = new System.Drawing.Size(75, 23);
             this.BrowseBtn.TabIndex = 0;
             this.BrowseBtn.Text = "Choose file";
             this.BrowseBtn.UseVisualStyleBackColor = true;
+            this.BrowseBtn.Click += new System.EventHandler(this.BrowseBtn_Click);
             // 
             // textBoxPathDxf
             // 
+            this.textBoxPathDxf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxPathDxf.Location = new System.Drawing.Point(4, 421);
             this.textBoxPathDxf.Name = "textBoxPathDxf";
             this.textBoxPathDxf.Size = new System.Drawing.Size(528, 23);
@@ -51,6 +55,9 @@
             // 
             // userControlWinFormsdxf1
             // 
+            this.userControlWinFormsdxf1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.userControlWinFormsdxf1.Location = new System.Drawing.Point(4, 12);
             this.userControlWinFormsdxf1.Name = "userControlWinFormsdxf1";
             this.userControlWinFormsdxf1.Size = new System.Drawing.Size(609, 403);
