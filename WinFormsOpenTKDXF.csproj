@@ -10,7 +10,12 @@
 
   <ItemGroup>
     <PackageReference Include="OpenTK" Version="4.7.7" />
-    <PackageReference Include="OpenTK.WinForms" Version="4.0.0-pre.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OpenTK.WinForms">
+      <HintPath>Precompiled\OpenTK.WinForms.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

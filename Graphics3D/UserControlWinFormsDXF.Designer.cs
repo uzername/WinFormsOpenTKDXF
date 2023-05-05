@@ -35,12 +35,13 @@
             // 
             this.glControl1.API = OpenTK.Windowing.Common.ContextAPI.OpenGL;
             this.glControl1.APIVersion = new System.Version(3, 3, 0, 0);
+            this.glControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.glControl1.Flags = OpenTK.Windowing.Common.ContextFlags.Default;
             this.glControl1.IsEventDriven = true;
-            this.glControl1.Location = new System.Drawing.Point(156, 71);
+            this.glControl1.Location = new System.Drawing.Point(0, 0);
             this.glControl1.Name = "glControl1";
             this.glControl1.Profile = OpenTK.Windowing.Common.ContextProfile.Core;
-            this.glControl1.Size = new System.Drawing.Size(524, 205);
+            this.glControl1.Size = new System.Drawing.Size(927, 459);
             this.glControl1.TabIndex = 0;
             this.glControl1.Text = "glControl1";
             // 
