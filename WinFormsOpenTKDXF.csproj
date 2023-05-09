@@ -18,4 +18,13 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Graphics3D\Shaders\shaderGrid.frag">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Graphics3D\Shaders\shaderGrid.vert">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
