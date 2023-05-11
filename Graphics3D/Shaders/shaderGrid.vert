@@ -24,6 +24,10 @@
 
 layout(location = 0) in vec3 aPosition;
 
+//needed for camera display
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
 
 // Like C, we have an entrypoint function. In this case, it takes void and returns void, and must be named main.
 // You can do all sorts of calculations here to modify your vertices, but right now, we don't need to do any of that.
@@ -34,5 +38,5 @@ layout(location = 0) in vec3 aPosition;
 
 void main(void)
 {
-    gl_Position = vec4(aPosition, 1.0);
+    gl_Position = vec4(aPosition, 1.0) * model * view * projection;
 }

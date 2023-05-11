@@ -45,6 +45,8 @@
             this.glControl1.TabIndex = 0;
             this.glControl1.Text = "glControl1";
             this.glControl1.Load += new System.EventHandler(this.glControl1_Load);
+            this.glControl1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.glControl1_KeyDown);
+            this.glControl1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.glControl1_MouseMove);
             // 
             // UserControlWinFormsDXF
             // 
